@@ -17,7 +17,7 @@ const Hero = () => {
                 </Reveal>
                 <div className="flex-1 flex flex-col items-center pt-20 md:pt-35 lg:pt-50 gap-6 md:gap-10 text-center">
                     <Reveal>
-                        <h1 className="text-3xl md:text-4xl lg:text-6xl w-[80vw]  md:w-[45vw] leading-tight">Therapy that feels like <span class='highlight'>being understood.</span></h1>
+                        <h1 className="text-3xl md:text-4xl lg:text-6xl w-[80vw]  md:w-[45vw] leading-tight">Therapy that feels like <span className='highlight'>being understood.</span></h1>
                     </Reveal>
                     <Reveal delay={0.6}>
                         <p className="text-lg md:text-xl text-muted">Gentle, Evidence-Based Therapy for Adults
