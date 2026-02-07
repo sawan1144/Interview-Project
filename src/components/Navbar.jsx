@@ -11,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY
-      if (currentScroll > lastScroll && currentScroll > 100) {
+      if (currentScroll > lastScroll && currentScroll > 10) {
         setHidden(true);
       } else { setHidden(false) }
       setLastScroll(currentScroll)
@@ -32,11 +32,11 @@ const Navbar = () => {
           <Menu size={35} strokeWidth={1} />
         </button>
 
-        <div className='text-2xl md:text-4xl font-bold'>Lilac Template</div>
+        <div className='text-2xl text-muted md:text-4xl font-bold'>Dr. Maya Reynolds</div>
 
         <div className='hidden md:flex space-x-12 text-xl'>
-          <Link className='hover:text-secondary transition-all duration-500' href=''>Blog</Link>
-          <Link className='hover:text-secondary transition-all duration-500' href=''>Contact</Link>
+          <Link className='hover:text-muted transition-all duration-500' href='/blog'>Blog</Link>
+          <Link className='hover:text-muted transition-all duration-500' href='/contact'>Contact</Link>
         </div>
       </nav>
 
@@ -49,19 +49,19 @@ const Navbar = () => {
           >
             <X size={35} strokeWidth={1} />
           </button>
-          <div className='text-2xl font-bold'>Lilac Template</div>
+          <div className='text-2xl text-muted font-bold'>Dr. Maya Reynolds</div>
         </div>
 
         <div className="flex flex-col items-center justify-center h-[70vh] space-y-10">
           <Link
-            href=""
+            href="/blog"
             className="text-4xl"
             onClick={() => setMenuOpen(false)}
           >
             Blog
           </Link>
           <Link
-            href=""
+            href="/contact"
             className="text-4xl"
             onClick={() => setMenuOpen(false)}
           >

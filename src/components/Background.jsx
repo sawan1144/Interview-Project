@@ -12,23 +12,23 @@ const Background = () => {
     const bg = [
         {
             title: 'Education',
-            des: 'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.'
+            des: 'Dr. Maya Reynolds holds a Doctor of Psychology (PsyD) degree in Clinical Psychology. Her graduate training emphasized evidence-based treatment for anxiety, trauma, and stress-related concerns in adults.'
         },
         {
             title: 'Licensure',
-            des: 'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.'
+            des: 'Dr. Reynolds is a Licensed Clinical Psychologist practicing in California. She provides both in-person therapy in Santa Monica and secure telehealth services for clients located throughout the state.'
         },
         {
             title: 'Certifications',
-            des: 'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.'
+            des: 'Cognitive Behavioral Therapy (CBT), EMDR Therapy, Mindfulness-Based Practices, Body-oriented therapeutic techniques'
         }
     ]
 
     return (
         <div>
-            <div className="bg-secondary text-center py-15 md:py-25 px-5 md:px-0 space-y-8 md:space-y-10">
+            <div className="bg-background text-center py-15 md:py-25 px-5 md:px-0 space-y-8 md:space-y-10">
                 <Reveal>
-                    <h1 className="text-2xl md:text-4xl font-semibold">My Professional Background</h1>
+                    <h2 className="text-2xl md:text-4xl">Experience & Credentials</h2>
                 </Reveal>
                 <Reveal className="flex justify-center">
                     <Accordion type="single" collapsible className="w-full md:w-[50vw] border-y">
@@ -41,7 +41,7 @@ const Background = () => {
                                     <Plus strokeWidth={0.8} className="group-data-[state=open]:hidden" />
                                     <Minus strokeWidth={0.8} className="group-data-[state=open]:block hidden" />
                                 </AccordionTrigger>
-                                <AccordionContent className="text-base md:text-xl pb-6 md:pb-10 px-2 md:px-15">
+                                <AccordionContent className="text-muted md:text-xl pb-6 md:pb-10 px-2 md:px-15">
                                     {item.des}
                                 </AccordionContent>
                             </AccordionItem>
@@ -49,9 +49,9 @@ const Background = () => {
                     </Accordion>
                 </Reveal>
             </div>
-            <div className="bg-[#7E7B46] text-background text-center py-15 md:py-30 px-5 md:px-0 space-y-6 md:space-y-10">
+            <div className="bg-[#9cad8b] text-background text-center py-15 md:py-30 px-5 md:px-0 space-y-6 md:space-y-10">
                 <Reveal>
-                    <h1 className="text-3xl md:text-5xl font-semibold">Get started today.</h1>
+                    <h2 className="text-3xl md:text-5xl">Get started today.</h2>
                 </Reveal>
                 <Reveal delay={0.1}>
                     <p className="text-base md:text-xl max-w-2xl mx-auto">
