@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Therapist Portfolio Website (Next.js)
 
-## Getting Started
+A modern, professional, and SEO-optimized therapist portfolio website built using **Next.js**, designed to create a strong online presence for mental health professionals.
 
-First, run the development server:
+## 🌐 Live Demo
+https://interview-project-phi-dusky.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is a fully responsive therapist website focused on performance, accessibility, and clean user experience.  
+It includes modern UI design, scroll animations, and strong SEO optimization to improve search engine visibility.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website is optimized to load fast and provide a professional and trustworthy interface for visitors.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fully responsive across Mobile, Tablet, and Desktop  
+- Lighthouse Score: **99 Performance / 100 SEO**  
+- Modern UI built with clean design principles  
+- Smooth scroll-based animations  
+- SEO-optimized structure with proper metadata  
+- Fast loading with optimized assets  
+- Deployed on Vercel  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS  
+- **UI Components:** shadcn/ui  
+- **Language:** JavaScript  
+- **Deployment:** Vercel  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Project Structure
+
+- src/ → Main application source code
+- public/ → Static assets (images, icons)
